@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, render_template
-from .data_cleaner import clean_data
-from .db_manager import init_db, query_weather, query_temp_stats
+from app.data_cleaner import clean_data
+from app.db_manager import init_db, query_weather, query_temp_stats
 import os
 
 app = Flask(__name__, template_folder='../templates', static_folder='../static')
