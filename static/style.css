@@ -1,0 +1,24 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f7fa;
+}
+
+h2 {
+  color: #0078d7;
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.result-box {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 250px;
+  overflow-y: auto;
+  font-size: 14px;
+}
