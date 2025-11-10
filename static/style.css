@@ -18,7 +18,9 @@ h2 {
   background: #ffffff;
   padding: 10px;
   border-radius: 5px;
-  max-height: 250px;
+  max-height: 350px;
   overflow-y: auto;
   font-size: 14px;
+  white-space: pre-wrap;
+  margin-top: 10px;
 }
